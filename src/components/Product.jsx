@@ -12,7 +12,7 @@ const Product = ({ name, image, description, price, quantity }) => (
             <p>Price: ${price}</p>
             <p>Available Quantity: {quantity}</p>
         <Counter />
-            <button className="buy-button">Buy Now</button>
+            <button className="buy-button"><a href="#">Buy Now</a></button>
         </div>
     </div>
 );
